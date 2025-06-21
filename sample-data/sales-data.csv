@@ -1,0 +1,5 @@
+transaction_id,store_id,cashier_id,product_sku,product_name,category,quantity,price,discount,total,payment_method,timestamp
+TXN001,STORE001,CASH001,SKU12345,Laptop Computer,Electronics,1,999.99,50.00,949.99,Credit Card,2024-01-15 10:30:00
+TXN002,STORE002,CASH002,SKU23456,Office Chair,Furniture,1,199.99,0.00,199.99,Cash,2024-01-15 11:15:00
+TXN003,STORE001,CASH003,SKU34567,Coffee Beans,Food,2,12.99,2.00,23.98,Debit Card,2024-01-15 14:20:00
+TXN004,STORE003,CASH001,SKU45678,Running Shoes,Sports,1,129.99,15.00,114.99,Credit Card,2024-01-16 09:45:00

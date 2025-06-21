@@ -1,0 +1,4 @@
+order_id,customer_name,email,product_name,quantity,unit_price,order_date
+PORT001,Portfolio Reviewer,reviewer@company.com,Serverless Demo,1,299.99,2024-01-20
+PORT002,Hiring Manager,hiring@company.com,Cloud Solution,2,149.99,2024-01-20
+PORT003,Technical Lead,tech@company.com,AWS Pipeline,1,399.99,2024-01-20

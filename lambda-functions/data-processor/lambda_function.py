@@ -1,0 +1,23 @@
+import json
+import boto3
+from datetime import datetime
+
+
+def lambda_handler(event, context):
+    print("Lambda function started!")
+    print(f"Event received: {json.dumps(event, indent=2)}")
+
+    # Test AWS SDK connection
+    try:
+        s3 = boto3.client('s3')
+        print("✅ Successfully connected to AWS!")
+    except Exception as e:
+        print(f"❌ AWS connection failed: {e}")
+
+    return {
+        'statusCode': 200,
+        'body': json.dumps({
+            'message': 'Lambda function working!',
+            'timestamp': datetime.now().isoformat()
+        })
+    }
